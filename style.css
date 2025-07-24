@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;          
+  background-color: #f0f0f0;
+}
+
+form {
+  width: 500px;
+  height: 656px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+span {
+  width: 1px;
+  height: 20px;
+  background: black;
+}
+
+a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+a.active {
+  color: #46A358;
+}
+
+p {
+  margin: 25px 0 0;
+  color: #3D3D3D;
+}
+
+form input {
+  width: 300px;
+  height: 40px;
+  padding: 15px 20px;
+  border: 1px solid #A5A5A5;
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: #A5A5A5;
+}
+
+.password {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+}
+
+.submit__btn {
+  width: 300px;
+  height: 45px;
+  padding: 15px;
+  background-color: #46A358;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.social__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 40px;
+  padding: 15px;
+  color: #727272;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid #A5A5A5;
+  border-radius: 6px;
+  gap: 6px;
+}
+
+
